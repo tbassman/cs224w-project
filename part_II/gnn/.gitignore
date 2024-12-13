@@ -1,8 +1,8 @@
 #LM_KGQA specific
-checkpoint/
-checkpoint/pretrain/
-data/
-pretrained_lms/
+# checkpoint/
+# checkpoint/pretrain/
+# data/
+# pretrained_lms/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
