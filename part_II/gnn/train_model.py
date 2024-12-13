@@ -16,8 +16,9 @@ tqdm.monitor_iterval = 0
 from dataset_load import load_data
 from dataset_load_graft import load_data_graft
 from models.ReaRev.rearev import ReaRev
-from models.NSM.nsm import NSM
-from models.GraftNet.graftnet import GraftNet
+
+# from models.NSM.nsm import NSM
+# from models.GraftNet.graftnet import GraftNet
 from evaluate import Evaluator
 
 
@@ -48,18 +49,18 @@ class Trainer_KBQA(object):
             self.model = ReaRev(
                 self.args, len(self.entity2id), self.num_kb_relation, self.num_word
             )
-        elif model_name == "NSM":
-            self.model = NSM(
-                self.args, len(self.entity2id), self.num_kb_relation, self.num_word
-            )
-        elif model_name == "GraftNet":
-            self.model = GraftNet(
-                self.args, len(self.entity2id), self.num_kb_relation, self.num_word
-            )
-        elif model_name == "NuTrea":
-            self.model = NuTrea(
-                self.args, len(self.entity2id), self.num_kb_relation, self.num_word
-            )
+        # elif model_name == "NSM":
+        #     self.model = NSM(
+        #         self.args, len(self.entity2id), self.num_kb_relation, self.num_word
+        #     )
+        # elif model_name == "GraftNet":
+        #     self.model = GraftNet(
+        #         self.args, len(self.entity2id), self.num_kb_relation, self.num_word
+        #     )
+        # elif model_name == "NuTrea":
+        #     self.model = NuTrea(
+        #         self.args, len(self.entity2id), self.num_kb_relation, self.num_word
+        #     )
 
         if args["relation_word_emb"]:
             # self.model.use_rel_texts(self.rel_texts, self.rel_texts_inv)
