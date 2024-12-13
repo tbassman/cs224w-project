@@ -11,6 +11,12 @@ For clarity, this code base is separated into three parts, one for each of the t
 
 # Part II
 
+## Setup
+
+1. Download the `data.zip` file from this Google Drive [link](https://drive.google.com/drive/folders/1ifgVHQDnvFEunP9hmVYT07Y3rvcpIfQp) (from the original GNN-RAG authors). Place the contents of the `data/CWQ/` file within the data.zip in `part_II/gnn/data/CWQ/`.
+
+2. Also download the `pretrained_lms.zip` file from the same Google Drive link as above. Place the contents of `pretrained_lms` within `part_II/gnn/pretrained_lms/`.
+
 ## Running the models
 
 To run the code in this folder (for all of the sensitivity studies performed in Part II), we recommend creating a new Conda environment `conda create --name cs224w-project python=3.12`, navigating inside the `part_II/gnn/` folder, then running `pip install -r requirements.txt`.

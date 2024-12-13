@@ -1,0 +1,1 @@
+Download the `pretrained_lms.zip` file from this Google Drive [link](https://drive.google.com/drive/folders/1ifgVHQDnvFEunP9hmVYT07Y3rvcpIfQp) (from the original GNN-RAG authors). Place the contents of the `pretrained_lms` file within the data.zip in `part_II/gnn/pretrained_lms/`.

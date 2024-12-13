@@ -1,0 +1,1 @@
+Place the contents of the `data/CWQ/` file from within the data.zip file at this Google Drive [link](https://drive.google.com/drive/folders/1ifgVHQDnvFEunP9hmVYT07Y3rvcpIfQp) (from the original GNN-RAG authors) here.
