@@ -229,3 +229,13 @@ python main.py ReaRev --entity_dim 50 --num_epoch 100 --batch_size 8 --eval_ever
 
 ## 
 # Part III
+## Procedure
+
+1. Collect test cases within 5 hop distance by "path_analysis_hack_L5_L7.py". The result is saved as "shortest_cases.txt".
+
+2. Permute the targeting test cases to the front among cases and write out the candidate with shortest distance to each case. The result is saved as "permute_cases.json".
+
+3. Run the GNN as steps in Part II.
+
+4. Calculate the imrpovement rate by "parse_reflect_res.py".   
+
