@@ -1,0 +1,1089 @@
+GAT_2lyr_4batchsz_512hiddim_50eps
+Setting up 'TinyLlama/TinyLlama-1.1B-Chat-v0.1' with configuration: {'revision': 'main', 'max_memory': {0: '58GiB'}, 'low_cpu_mem_usage': True, 'device_map': 'auto', 'torch_dtype': torch.bfloat16}
+Training beginning...
+Epoch: 1|50: 100%|████████████████████████████| 706/706 [02:26<00:00,  4.82it/s]
+Epoch: 1|50, Train Loss: 1.401296
+Epoch: 1|50, Val Loss: 1.323611
+Checkpointing best model...
+Epoch: 2|50: 100%|████████████████████████████| 706/706 [02:26<00:00,  4.81it/s]
+Epoch: 2|50, Train Loss: 1.165207
+Epoch: 2|50, Val Loss: 1.282768
+Checkpointing best model...
+Epoch: 3|50: 100%|████████████████████████████| 706/706 [02:26<00:00,  4.82it/s]
+Epoch: 3|50, Train Loss: 1.121862
+Epoch: 3|50, Val Loss: 1.264380
+Checkpointing best model...
+Epoch: 4|50: 100%|████████████████████████████| 706/706 [02:27<00:00,  4.80it/s]
+Epoch: 4|50, Train Loss: 1.100956
+Epoch: 4|50, Val Loss: 1.257284
+Checkpointing best model...
+Epoch: 5|50: 100%|████████████████████████████| 706/706 [02:26<00:00,  4.80it/s]
+Epoch: 5|50, Train Loss: 1.078492
+Epoch: 5|50, Val Loss: 1.250018
+Checkpointing best model...
+Epoch: 6|50: 100%|████████████████████████████| 706/706 [02:27<00:00,  4.80it/s]
+Epoch: 6|50, Train Loss: 1.061677
+Epoch: 6|50, Val Loss: 1.245573
+Checkpointing best model...
+Epoch: 7|50: 100%|████████████████████████████| 706/706 [02:26<00:00,  4.81it/s]
+Epoch: 7|50, Train Loss: 1.047845
+Epoch: 7|50, Val Loss: 1.242486
+Checkpointing best model...
+Epoch: 8|50: 100%|████████████████████████████| 706/706 [02:26<00:00,  4.83it/s]
+Epoch: 8|50, Train Loss: 1.037233
+Epoch: 8|50, Val Loss: 1.237914
+Checkpointing best model...
+Epoch: 9|50: 100%|████████████████████████████| 706/706 [02:26<00:00,  4.81it/s]
+Epoch: 9|50, Train Loss: 1.033433
+Epoch: 9|50, Val Loss: 1.239373
+Epoch: 10|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.81it/s]
+Epoch: 10|50, Train Loss: 1.025176
+Epoch: 10|50, Val Loss: 1.240307
+Epoch: 11|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.79it/s]
+Epoch: 11|50, Train Loss: 1.015719
+Epoch: 11|50, Val Loss: 1.235790
+Checkpointing best model...
+Epoch: 12|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.79it/s]
+Epoch: 12|50, Train Loss: 1.010639
+Epoch: 12|50, Val Loss: 1.238252
+Epoch: 13|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.83it/s]
+Epoch: 13|50, Train Loss: 1.008157
+Epoch: 13|50, Val Loss: 1.234160
+Checkpointing best model...
+Epoch: 14|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.85it/s]
+Epoch: 14|50, Train Loss: 1.002866
+Epoch: 14|50, Val Loss: 1.232252
+Checkpointing best model...
+Epoch: 15|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.83it/s]
+Epoch: 15|50, Train Loss: 1.003260
+Epoch: 15|50, Val Loss: 1.232964
+Epoch: 16|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.80it/s]
+Epoch: 16|50, Train Loss: 0.987168
+Epoch: 16|50, Val Loss: 1.232220
+Checkpointing best model...
+Epoch: 17|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.82it/s]
+Epoch: 17|50, Train Loss: 0.989094
+Epoch: 17|50, Val Loss: 1.234967
+Epoch: 18|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.83it/s]
+Epoch: 18|50, Train Loss: 0.994140
+Epoch: 18|50, Val Loss: 1.230613
+Checkpointing best model...
+Epoch: 19|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.81it/s]
+Epoch: 19|50, Train Loss: 0.982395
+Epoch: 19|50, Val Loss: 1.236414
+Epoch: 20|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.78it/s]
+Epoch: 20|50, Train Loss: 0.984457
+Epoch: 20|50, Val Loss: 1.234858
+Epoch: 21|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.82it/s]
+Epoch: 21|50, Train Loss: 0.978553
+Epoch: 21|50, Val Loss: 1.231594
+Epoch: 22|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.80it/s]
+Epoch: 22|50, Train Loss: 0.980133
+Epoch: 22|50, Val Loss: 1.234795
+Epoch: 23|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.80it/s]
+Epoch: 23|50, Train Loss: 0.978828
+Epoch: 23|50, Val Loss: 1.235169
+Epoch: 24|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.80it/s]
+Epoch: 24|50, Train Loss: 0.978988
+Epoch: 24|50, Val Loss: 1.235937
+Epoch: 25|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.81it/s]
+Epoch: 25|50, Train Loss: 0.976830
+Epoch: 25|50, Val Loss: 1.235930
+Epoch: 26|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.81it/s]
+Epoch: 26|50, Train Loss: 0.968378
+Epoch: 26|50, Val Loss: 1.232936
+Epoch: 27|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.80it/s]
+Epoch: 27|50, Train Loss: 0.968657
+Epoch: 27|50, Val Loss: 1.235507
+Epoch: 28|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.78it/s]
+Epoch: 28|50, Train Loss: 0.972537
+Epoch: 28|50, Val Loss: 1.237804
+Epoch: 29|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.81it/s]
+Epoch: 29|50, Train Loss: 0.963134
+Epoch: 29|50, Val Loss: 1.236159
+Epoch: 30|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.83it/s]
+Epoch: 30|50, Train Loss: 0.969655
+Epoch: 30|50, Val Loss: 1.239806
+Epoch: 31|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.79it/s]
+Epoch: 31|50, Train Loss: 0.958896
+Epoch: 31|50, Val Loss: 1.240564
+Epoch: 32|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.80it/s]
+Epoch: 32|50, Train Loss: 0.960639
+Epoch: 32|50, Val Loss: 1.238902
+Epoch: 33|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.83it/s]
+Epoch: 33|50, Train Loss: 0.962668
+Epoch: 33|50, Val Loss: 1.234759
+Epoch: 34|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.78it/s]
+Epoch: 34|50, Train Loss: 0.963197
+Epoch: 34|50, Val Loss: 1.235988
+Epoch: 35|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.83it/s]
+Epoch: 35|50, Train Loss: 0.961431
+Epoch: 35|50, Val Loss: 1.234311
+Epoch: 36|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.80it/s]
+Epoch: 36|50, Train Loss: 0.962610
+Epoch: 36|50, Val Loss: 1.236560
+Epoch: 37|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.79it/s]
+Epoch: 37|50, Train Loss: 0.959578
+Epoch: 37|50, Val Loss: 1.241884
+Epoch: 38|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.81it/s]
+Epoch: 38|50, Train Loss: 0.956241
+Epoch: 38|50, Val Loss: 1.237345
+Epoch: 39|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.82it/s]
+Epoch: 39|50, Train Loss: 0.953375
+Epoch: 39|50, Val Loss: 1.237533
+Epoch: 40|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.80it/s]
+Epoch: 40|50, Train Loss: 0.950664
+Epoch: 40|50, Val Loss: 1.239589
+Epoch: 41|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.78it/s]
+Epoch: 41|50, Train Loss: 0.953851
+Epoch: 41|50, Val Loss: 1.239738
+Epoch: 42|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.69it/s]
+Epoch: 42|50, Train Loss: 0.945383
+Epoch: 42|50, Val Loss: 1.237881
+Epoch: 43|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.76it/s]
+Epoch: 43|50, Train Loss: 0.948547
+Epoch: 43|50, Val Loss: 1.245322
+Epoch: 44|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.75it/s]
+Epoch: 44|50, Train Loss: 0.944944
+Epoch: 44|50, Val Loss: 1.242178
+Epoch: 45|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.74it/s]
+Epoch: 45|50, Train Loss: 0.948681
+Epoch: 45|50, Val Loss: 1.242453
+Epoch: 46|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.78it/s]
+Epoch: 46|50, Train Loss: 0.943672
+Epoch: 46|50, Val Loss: 1.238836
+Epoch: 47|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.83it/s]
+Epoch: 47|50, Train Loss: 0.944918
+Epoch: 47|50, Val Loss: 1.247733
+Epoch: 48|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.81it/s]
+Epoch: 48|50, Train Loss: 0.950776
+Epoch: 48|50, Val Loss: 1.244569
+Epoch: 49|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.70it/s]
+Epoch: 49|50, Train Loss: 0.942600
+Epoch: 49|50, Val Loss: 1.245326
+Epoch: 50|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.72it/s]
+Epoch: 50|50, Train Loss: 0.943405
+Epoch: 50|50, Val Loss: 1.243634
+Loading best checkpoint...
+/home/user/mambaforge/envs/env/lib/python3.11/site-packages/torch/cuda/memory.py:330: FutureWarning: torch.cuda.reset_max_memory_allocated now calls torch.cuda.reset_peak_memory_stats, which resets /all/ peak memory stats.
+  warnings.warn(
+Final evaluation...
+100%|█████████████████████████████████████████| 407/407 [04:30<00:00,  1.52it/s]
+Hit: 0.4435
+Precision: 0.3641
+Recall: 0.2899
+F1: 0.2909
+Total Training Time: 8087.191710s
+100%|█████████████████████████████████████████| 407/407 [04:33<00:00,  1.49it/s]
+batch_size = 4
+validation_batch_size = 4
+lr = 1e-5
+checkpointing = True
+epoch_count = 50
+hidden_channel_size = 512
+gnn_layer_count = 2
+gnn = 'GraphSAGE'
+name = f'{gnn}_{gnn_layer_count}lyr_{batch_size}batchsz_{hidden_channel_size}hiddim_{epoch_count}eps'
+print(name)
+
+train_model(name, gnn, epoch_count, hidden_channel_size, gnn_layer_count, batch_size, validation_batch_size, lr, checkpointing, load_checkpoint = False)
+
+
+
+
+
+
+GraphSAGE_2lyr_4batchsz_512hiddim_50eps
+Setting up 'TinyLlama/TinyLlama-1.1B-Chat-v0.1' with configuration: {'revision': 'main', 'max_memory': {0: '69GiB'}, 'low_cpu_mem_usage': True, 'device_map': 'auto', 'torch_dtype': torch.bfloat16}
+Training beginning...
+Epoch: 1|50: 100%|████████████████████████████| 706/706 [02:28<00:00,  4.76it/s]
+Epoch: 1|50, Train Loss: 1.409095
+Epoch: 1|50, Val Loss: 1.330518
+Checkpointing best model...
+Epoch: 2|50: 100%|████████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 2|50, Train Loss: 1.178118
+Epoch: 2|50, Val Loss: 1.294103
+Checkpointing best model...
+Epoch: 3|50: 100%|████████████████████████████| 706/706 [02:28<00:00,  4.74it/s]
+Epoch: 3|50, Train Loss: 1.137944
+Epoch: 3|50, Val Loss: 1.281409
+Checkpointing best model...
+Epoch: 4|50: 100%|████████████████████████████| 706/706 [02:28<00:00,  4.75it/s]
+Epoch: 4|50, Train Loss: 1.111948
+Epoch: 4|50, Val Loss: 1.269883
+Checkpointing best model...
+Epoch: 5|50: 100%|████████████████████████████| 706/706 [02:27<00:00,  4.78it/s]
+Epoch: 5|50, Train Loss: 1.095242
+Epoch: 5|50, Val Loss: 1.259547
+Checkpointing best model...
+Epoch: 6|50: 100%|████████████████████████████| 706/706 [02:25<00:00,  4.84it/s]
+Epoch: 6|50, Train Loss: 1.069591
+Epoch: 6|50, Val Loss: 1.257492
+Checkpointing best model...
+Epoch: 7|50: 100%|████████████████████████████| 706/706 [02:25<00:00,  4.84it/s]
+Epoch: 7|50, Train Loss: 1.060396
+Epoch: 7|50, Val Loss: 1.251784
+Checkpointing best model...
+Epoch: 8|50: 100%|████████████████████████████| 706/706 [02:26<00:00,  4.83it/s]
+Epoch: 8|50, Train Loss: 1.053629
+Epoch: 8|50, Val Loss: 1.248758
+Checkpointing best model...
+Epoch: 9|50: 100%|████████████████████████████| 706/706 [02:25<00:00,  4.84it/s]
+Epoch: 9|50, Train Loss: 1.053497
+Epoch: 9|50, Val Loss: 1.246038
+Checkpointing best model...
+Epoch: 10|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.81it/s]
+Epoch: 10|50, Train Loss: 1.030239
+Epoch: 10|50, Val Loss: 1.247104
+Epoch: 11|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.83it/s]
+Epoch: 11|50, Train Loss: 1.031883
+Epoch: 11|50, Val Loss: 1.245464
+Checkpointing best model...
+Epoch: 12|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.85it/s]
+Epoch: 12|50, Train Loss: 1.019548
+Epoch: 12|50, Val Loss: 1.240587
+Checkpointing best model...
+Epoch: 13|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.85it/s]
+Epoch: 13|50, Train Loss: 1.016200
+Epoch: 13|50, Val Loss: 1.245545
+Epoch: 14|50: 100%|███████████████████████████| 706/706 [02:24<00:00,  4.87it/s]
+Epoch: 14|50, Train Loss: 1.017639
+Epoch: 14|50, Val Loss: 1.246490
+Epoch: 15|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.85it/s]
+Epoch: 15|50, Train Loss: 1.005134
+Epoch: 15|50, Val Loss: 1.242044
+Epoch: 16|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.84it/s]
+Epoch: 16|50, Train Loss: 1.008951
+Epoch: 16|50, Val Loss: 1.244611
+Epoch: 17|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.87it/s]
+Epoch: 17|50, Train Loss: 1.006000
+Epoch: 17|50, Val Loss: 1.242380
+Epoch: 18|50: 100%|███████████████████████████| 706/706 [02:24<00:00,  4.88it/s]
+Epoch: 18|50, Train Loss: 1.000109
+Epoch: 18|50, Val Loss: 1.241072
+Epoch: 19|50: 100%|███████████████████████████| 706/706 [02:24<00:00,  4.89it/s]
+Epoch: 19|50, Train Loss: 0.998259
+Epoch: 19|50, Val Loss: 1.241036
+Epoch: 20|50: 100%|███████████████████████████| 706/706 [02:24<00:00,  4.88it/s]
+Epoch: 20|50, Train Loss: 0.985766
+Epoch: 20|50, Val Loss: 1.241774
+Epoch: 21|50: 100%|███████████████████████████| 706/706 [02:24<00:00,  4.89it/s]
+Epoch: 21|50, Train Loss: 1.003263
+Epoch: 21|50, Val Loss: 1.240063
+Checkpointing best model...
+Epoch: 22|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.83it/s]
+Epoch: 22|50, Train Loss: 0.999824
+Epoch: 22|50, Val Loss: 1.244321
+Epoch: 23|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.83it/s]
+Epoch: 23|50, Train Loss: 0.992283
+Epoch: 23|50, Val Loss: 1.245100
+Epoch: 24|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.87it/s]
+Epoch: 24|50, Train Loss: 0.986118
+Epoch: 24|50, Val Loss: 1.247986
+Epoch: 25|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.85it/s]
+Epoch: 25|50, Train Loss: 0.984362
+Epoch: 25|50, Val Loss: 1.244052
+Epoch: 26|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.85it/s]
+Epoch: 26|50, Train Loss: 0.989918
+Epoch: 26|50, Val Loss: 1.244052
+Epoch: 27|50: 100%|███████████████████████████| 706/706 [02:24<00:00,  4.87it/s]
+Epoch: 27|50, Train Loss: 0.983878
+Epoch: 27|50, Val Loss: 1.243146
+Epoch: 28|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.81it/s]
+Epoch: 28|50, Train Loss: 0.980691
+Epoch: 28|50, Val Loss: 1.243508
+Epoch: 29|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.78it/s]
+Epoch: 29|50, Train Loss: 0.981353
+Epoch: 29|50, Val Loss: 1.254103
+Epoch: 30|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.77it/s]
+Epoch: 30|50, Train Loss: 0.984644
+Epoch: 30|50, Val Loss: 1.245710
+Epoch: 31|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.77it/s]
+Epoch: 31|50, Train Loss: 0.972244
+Epoch: 31|50, Val Loss: 1.249424
+Epoch: 32|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 32|50, Train Loss: 0.982834
+Epoch: 32|50, Val Loss: 1.251031
+Epoch: 33|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.75it/s]
+Epoch: 33|50, Train Loss: 0.981261
+Epoch: 33|50, Val Loss: 1.250294
+Epoch: 34|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.76it/s]
+Epoch: 34|50, Train Loss: 0.971324
+Epoch: 34|50, Val Loss: 1.247788
+Epoch: 35|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.78it/s]
+Epoch: 35|50, Train Loss: 0.973092
+Epoch: 35|50, Val Loss: 1.243282
+Epoch: 36|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.79it/s]
+Epoch: 36|50, Train Loss: 0.969630
+Epoch: 36|50, Val Loss: 1.248188
+Epoch: 37|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.76it/s]
+Epoch: 37|50, Train Loss: 0.963628
+Epoch: 37|50, Val Loss: 1.249397
+Epoch: 38|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.76it/s]
+Epoch: 38|50, Train Loss: 0.974507
+Epoch: 38|50, Val Loss: 1.246119
+Epoch: 39|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.77it/s]
+Epoch: 39|50, Train Loss: 0.969611
+Epoch: 39|50, Val Loss: 1.249639
+Epoch: 40|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.78it/s]
+Epoch: 40|50, Train Loss: 0.962981
+Epoch: 40|50, Val Loss: 1.243496
+Epoch: 41|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.75it/s]
+Epoch: 41|50, Train Loss: 0.964686
+Epoch: 41|50, Val Loss: 1.249263
+Epoch: 42|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.76it/s]
+Epoch: 42|50, Train Loss: 0.969430
+Epoch: 42|50, Val Loss: 1.251520
+Epoch: 43|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.75it/s]
+Epoch: 43|50, Train Loss: 0.971118
+Epoch: 43|50, Val Loss: 1.252624
+Epoch: 44|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.78it/s]
+Epoch: 44|50, Train Loss: 0.955471
+Epoch: 44|50, Val Loss: 1.248328
+Epoch: 45|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.77it/s]
+Epoch: 45|50, Train Loss: 0.957107
+Epoch: 45|50, Val Loss: 1.248570
+Epoch: 46|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.79it/s]
+Epoch: 46|50, Train Loss: 0.964922
+Epoch: 46|50, Val Loss: 1.251066
+Epoch: 47|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.78it/s]
+Epoch: 47|50, Train Loss: 0.959512
+Epoch: 47|50, Val Loss: 1.255630
+Epoch: 48|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.77it/s]
+Epoch: 48|50, Train Loss: 0.955739
+Epoch: 48|50, Val Loss: 1.252172
+Epoch: 49|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.80it/s]
+Epoch: 49|50, Train Loss: 0.961723
+Epoch: 49|50, Val Loss: 1.245840
+Epoch: 50|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.82it/s]
+Epoch: 50|50, Train Loss: 0.950119
+Epoch: 50|50, Val Loss: 1.256230
+Loading best checkpoint...
+Final evaluation...
+100%|█████████████████████████████████████████| 407/407 [04:31<00:00,  1.45it/s]
+Label: saint nicholas
+Pred: ['nick st. nicholas (santa claus the 21st]']
+Exception: missing ), unterminated subpattern at position 18
+------------------
+Hit: 0.4450
+Precision: 0.3606
+Recall: 0.2872
+F1: 0.2882
+Total Training Time: 8024.612685s
+100%|█████████████████████████████████████████| 407/407 [04:34<00:00,  1.48it/s]
+
+
+
+
+
+
+GIN_2lyr_4batchsz_512hiddim_50eps
+Setting up 'TinyLlama/TinyLlama-1.1B-Chat-v0.1' with configuration: {'revision': 'main', 'max_memory': {0: '69GiB'}, 'low_cpu_mem_usage': True, 'device_map': 'auto', 'torch_dtype': torch.bfloat16}
+Training beginning...
+Epoch: 1|50: 100%|████████████████████████████| 706/706 [02:26<00:00,  4.83it/s]
+Epoch: 1|50, Train Loss: 1.408414
+Epoch: 1|50, Val Loss: 1.328426
+Checkpointing best model...
+Epoch: 2|50: 100%|████████████████████████████| 706/706 [02:25<00:00,  4.85it/s]
+Epoch: 2|50, Train Loss: 1.173098
+Epoch: 2|50, Val Loss: 1.295573
+Checkpointing best model...
+Epoch: 3|50: 100%|████████████████████████████| 706/706 [02:26<00:00,  4.83it/s]
+Epoch: 3|50, Train Loss: 1.131244
+Epoch: 3|50, Val Loss: 1.277377
+Checkpointing best model...
+Epoch: 4|50: 100%|████████████████████████████| 706/706 [02:25<00:00,  4.84it/s]
+Epoch: 4|50, Train Loss: 1.103731
+Epoch: 4|50, Val Loss: 1.264392
+Checkpointing best model...
+Epoch: 5|50: 100%|████████████████████████████| 706/706 [02:24<00:00,  4.87it/s]
+Epoch: 5|50, Train Loss: 1.080062
+Epoch: 5|50, Val Loss: 1.252941
+Checkpointing best model...
+Epoch: 6|50: 100%|████████████████████████████| 706/706 [02:26<00:00,  4.83it/s]
+Epoch: 6|50, Train Loss: 1.062069
+Epoch: 6|50, Val Loss: 1.246433
+Checkpointing best model...
+Epoch: 7|50: 100%|████████████████████████████| 706/706 [02:25<00:00,  4.85it/s]
+Epoch: 7|50, Train Loss: 1.055482
+Epoch: 7|50, Val Loss: 1.243088
+Checkpointing best model...
+Epoch: 8|50: 100%|████████████████████████████| 706/706 [02:25<00:00,  4.87it/s]
+Epoch: 8|50, Train Loss: 1.037643
+Epoch: 8|50, Val Loss: 1.238412
+Checkpointing best model...
+Epoch: 9|50: 100%|████████████████████████████| 706/706 [02:24<00:00,  4.87it/s]
+Epoch: 9|50, Train Loss: 1.030293
+Epoch: 9|50, Val Loss: 1.238870
+Epoch: 10|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.84it/s]
+Epoch: 10|50, Train Loss: 1.008530
+Epoch: 10|50, Val Loss: 1.236898
+Checkpointing best model...
+Epoch: 11|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.87it/s]
+Epoch: 11|50, Train Loss: 1.021938
+Epoch: 11|50, Val Loss: 1.231413
+Checkpointing best model...
+Epoch: 12|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.78it/s]
+Epoch: 12|50, Train Loss: 1.014154
+Epoch: 12|50, Val Loss: 1.236428
+Epoch: 13|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.84it/s]
+Epoch: 13|50, Train Loss: 1.003416
+Epoch: 13|50, Val Loss: 1.228780
+Checkpointing best model...
+Epoch: 14|50: 100%|███████████████████████████| 706/706 [02:24<00:00,  4.87it/s]
+Epoch: 14|50, Train Loss: 1.001505
+Epoch: 14|50, Val Loss: 1.228291
+Checkpointing best model...
+Epoch: 15|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.84it/s]
+Epoch: 15|50, Train Loss: 0.997253
+Epoch: 15|50, Val Loss: 1.232363
+Epoch: 16|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.84it/s]
+Epoch: 16|50, Train Loss: 0.994620
+Epoch: 16|50, Val Loss: 1.232689
+Epoch: 17|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.85it/s]
+Epoch: 17|50, Train Loss: 0.990439
+Epoch: 17|50, Val Loss: 1.229804
+Epoch: 18|50: 100%|███████████████████████████| 706/706 [02:24<00:00,  4.87it/s]
+Epoch: 18|50, Train Loss: 0.989868
+Epoch: 18|50, Val Loss: 1.229283
+Epoch: 19|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.85it/s]
+Epoch: 19|50, Train Loss: 0.977439
+Epoch: 19|50, Val Loss: 1.227452
+Checkpointing best model...
+Epoch: 20|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.86it/s]
+Epoch: 20|50, Train Loss: 0.980436
+Epoch: 20|50, Val Loss: 1.241091
+Epoch: 21|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.85it/s]
+Epoch: 21|50, Train Loss: 0.987468
+Epoch: 21|50, Val Loss: 1.228334
+Epoch: 22|50: 100%|███████████████████████████| 706/706 [02:24<00:00,  4.87it/s]
+Epoch: 22|50, Train Loss: 0.976819
+Epoch: 22|50, Val Loss: 1.230281
+Epoch: 23|50: 100%|███████████████████████████| 706/706 [02:24<00:00,  4.87it/s]
+Epoch: 23|50, Train Loss: 0.979084
+Epoch: 23|50, Val Loss: 1.231824
+Epoch: 24|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.86it/s]
+Epoch: 24|50, Train Loss: 0.977622
+Epoch: 24|50, Val Loss: 1.230490
+Epoch: 25|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.85it/s]
+Epoch: 25|50, Train Loss: 0.968173
+Epoch: 25|50, Val Loss: 1.235400
+Epoch: 26|50: 100%|███████████████████████████| 706/706 [02:24<00:00,  4.89it/s]
+Epoch: 26|50, Train Loss: 0.980868
+Epoch: 26|50, Val Loss: 1.230681
+Epoch: 27|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.84it/s]
+Epoch: 27|50, Train Loss: 0.970668
+Epoch: 27|50, Val Loss: 1.237458
+Epoch: 28|50: 100%|███████████████████████████| 706/706 [02:24<00:00,  4.87it/s]
+Epoch: 28|50, Train Loss: 0.958365
+Epoch: 28|50, Val Loss: 1.236372
+Epoch: 29|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.84it/s]
+Epoch: 29|50, Train Loss: 0.962597
+Epoch: 29|50, Val Loss: 1.238154
+Epoch: 30|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.86it/s]
+Epoch: 30|50, Train Loss: 0.965434
+Epoch: 30|50, Val Loss: 1.230852
+Epoch: 31|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.76it/s]
+Epoch: 31|50, Train Loss: 0.961406
+Epoch: 31|50, Val Loss: 1.227022
+Checkpointing best model...
+Epoch: 32|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.86it/s]
+Epoch: 32|50, Train Loss: 0.958804
+Epoch: 32|50, Val Loss: 1.232270
+Epoch: 33|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.85it/s]
+Epoch: 33|50, Train Loss: 0.955494
+Epoch: 33|50, Val Loss: 1.231854
+Epoch: 34|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.85it/s]
+Epoch: 34|50, Train Loss: 0.957212
+Epoch: 34|50, Val Loss: 1.239848
+Epoch: 35|50: 100%|███████████████████████████| 706/706 [02:24<00:00,  4.87it/s]
+Epoch: 35|50, Train Loss: 0.946665
+Epoch: 35|50, Val Loss: 1.227882
+Epoch: 36|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.86it/s]
+Epoch: 36|50, Train Loss: 0.950053
+Epoch: 36|50, Val Loss: 1.233288
+Epoch: 37|50: 100%|███████████████████████████| 706/706 [02:24<00:00,  4.88it/s]
+Epoch: 37|50, Train Loss: 0.938833
+Epoch: 37|50, Val Loss: 1.232981
+Epoch: 38|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.85it/s]
+Epoch: 38|50, Train Loss: 0.946428
+Epoch: 38|50, Val Loss: 1.234093
+Epoch: 39|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.79it/s]
+Epoch: 39|50, Train Loss: 0.948239
+Epoch: 39|50, Val Loss: 1.232996
+Epoch: 40|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 40|50, Train Loss: 0.945746
+Epoch: 40|50, Val Loss: 1.236843
+Epoch: 41|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.80it/s]
+Epoch: 41|50, Train Loss: 0.946437
+Epoch: 41|50, Val Loss: 1.232199
+Epoch: 42|50: 100%|███████████████████████████| 706/706 [02:24<00:00,  4.87it/s]
+Epoch: 42|50, Train Loss: 0.942147
+Epoch: 42|50, Val Loss: 1.232609
+Epoch: 43|50: 100%|███████████████████████████| 706/706 [02:24<00:00,  4.87it/s]
+Epoch: 43|50, Train Loss: 0.933985
+Epoch: 43|50, Val Loss: 1.232044
+Epoch: 44|50: 100%|███████████████████████████| 706/706 [02:24<00:00,  4.89it/s]
+Epoch: 44|50, Train Loss: 0.934127
+Epoch: 44|50, Val Loss: 1.231131
+Epoch: 45|50: 100%|███████████████████████████| 706/706 [02:24<00:00,  4.88it/s]
+Epoch: 45|50, Train Loss: 0.931846
+Epoch: 45|50, Val Loss: 1.235358
+Epoch: 46|50: 100%|███████████████████████████| 706/706 [02:24<00:00,  4.87it/s]
+Epoch: 46|50, Train Loss: 0.927760
+Epoch: 46|50, Val Loss: 1.235757
+Epoch: 47|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.86it/s]
+Epoch: 47|50, Train Loss: 0.930496
+Epoch: 47|50, Val Loss: 1.234807
+Epoch: 48|50: 100%|███████████████████████████| 706/706 [02:24<00:00,  4.87it/s]
+Epoch: 48|50, Train Loss: 0.929101
+Epoch: 48|50, Val Loss: 1.230669
+Epoch: 49|50: 100%|███████████████████████████| 706/706 [02:24<00:00,  4.89it/s]
+Epoch: 49|50, Train Loss: 0.940452
+Epoch: 49|50, Val Loss: 1.236240
+Epoch: 50|50: 100%|███████████████████████████| 706/706 [02:23<00:00,  4.92it/s]
+Epoch: 50|50, Train Loss: 0.932763
+Epoch: 50|50, Val Loss: 1.234470
+Loading best checkpoint...
+Final evaluation...
+100%|█████████████████████████████████████████| 407/407 [04:30<00:00,  1.52it/s]
+Hit: 0.4558
+Precision: 0.3765
+Recall: 0.2889
+F1: 0.2943
+Total Training Time: 8009.448835s
+100%|█████████████████████████████████████████| 407/407 [04:33<00:00,  1.49it/s]
+
+
+
+
+
+
+GAT_4lyr_4batchsz_512hiddim_50eps
+Setting up 'TinyLlama/TinyLlama-1.1B-Chat-v0.1' with configuration: {'revision': 'main', 'max_memory': {0: '60GiB'}, 'low_cpu_mem_usage': True, 'device_map': 'auto', 'torch_dtype': torch.bfloat16}
+Training beginning...
+Epoch: 1|50: 100%|████████████████████████████| 706/706 [02:26<00:00,  4.81it/s]
+Epoch: 1|50, Train Loss: 1.410534
+Epoch: 1|50, Val Loss: 1.314335
+Checkpointing best model...
+Epoch: 2|50: 100%|████████████████████████████| 706/706 [02:28<00:00,  4.76it/s]
+Epoch: 2|50, Train Loss: 1.166692
+Epoch: 2|50, Val Loss: 1.277962
+Checkpointing best model...
+Epoch: 3|50: 100%|████████████████████████████| 706/706 [02:28<00:00,  4.76it/s]
+Epoch: 3|50, Train Loss: 1.128714
+Epoch: 3|50, Val Loss: 1.261932
+Checkpointing best model...
+Epoch: 4|50: 100%|████████████████████████████| 706/706 [02:27<00:00,  4.78it/s]
+Epoch: 4|50, Train Loss: 1.103605
+Epoch: 4|50, Val Loss: 1.254910
+Checkpointing best model...
+Epoch: 5|50: 100%|████████████████████████████| 706/706 [02:27<00:00,  4.79it/s]
+Epoch: 5|50, Train Loss: 1.080899
+Epoch: 5|50, Val Loss: 1.248371
+Checkpointing best model...
+Epoch: 6|50: 100%|████████████████████████████| 706/706 [02:27<00:00,  4.78it/s]
+Epoch: 6|50, Train Loss: 1.064121
+Epoch: 6|50, Val Loss: 1.243105
+Checkpointing best model...
+Epoch: 7|50: 100%|████████████████████████████| 706/706 [02:27<00:00,  4.79it/s]
+Epoch: 7|50, Train Loss: 1.055044
+Epoch: 7|50, Val Loss: 1.243180
+Epoch: 8|50: 100%|████████████████████████████| 706/706 [02:26<00:00,  4.81it/s]
+Epoch: 8|50, Train Loss: 1.041043
+Epoch: 8|50, Val Loss: 1.238213
+Checkpointing best model...
+Epoch: 9|50: 100%|████████████████████████████| 706/706 [02:28<00:00,  4.75it/s]
+Epoch: 9|50, Train Loss: 1.028600
+Epoch: 9|50, Val Loss: 1.237652
+Checkpointing best model...
+Epoch: 10|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.71it/s]
+Epoch: 10|50, Train Loss: 1.022428
+Epoch: 10|50, Val Loss: 1.236031
+Checkpointing best model...
+Epoch: 11|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.75it/s]
+Epoch: 11|50, Train Loss: 1.011157
+Epoch: 11|50, Val Loss: 1.235138
+Checkpointing best model...
+Epoch: 12|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.72it/s]
+Epoch: 12|50, Train Loss: 1.011566
+Epoch: 12|50, Val Loss: 1.232895
+Checkpointing best model...
+Epoch: 13|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.68it/s]
+Epoch: 13|50, Train Loss: 0.999181
+Epoch: 13|50, Val Loss: 1.234516
+Epoch: 14|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 14|50, Train Loss: 1.002095
+Epoch: 14|50, Val Loss: 1.234419
+Epoch: 15|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 15|50, Train Loss: 1.001395
+Epoch: 15|50, Val Loss: 1.239082
+Epoch: 16|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.69it/s]
+Epoch: 16|50, Train Loss: 1.000374
+Epoch: 16|50, Val Loss: 1.236205
+Epoch: 17|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.71it/s]
+Epoch: 17|50, Train Loss: 0.995231
+Epoch: 17|50, Val Loss: 1.237408
+Epoch: 18|50: 100%|███████████████████████████| 706/706 [02:31<00:00,  4.67it/s]
+Epoch: 18|50, Train Loss: 0.978777
+Epoch: 18|50, Val Loss: 1.236757
+Epoch: 19|50: 100%|███████████████████████████| 706/706 [02:31<00:00,  4.66it/s]
+Epoch: 19|50, Train Loss: 0.992150
+Epoch: 19|50, Val Loss: 1.240261
+Epoch: 20|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.69it/s]
+Epoch: 20|50, Train Loss: 0.982846
+Epoch: 20|50, Val Loss: 1.242246
+Epoch: 21|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.74it/s]
+Epoch: 21|50, Train Loss: 0.980933
+Epoch: 21|50, Val Loss: 1.243153
+Epoch: 22|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.69it/s]
+Epoch: 22|50, Train Loss: 0.971768
+Epoch: 22|50, Val Loss: 1.244219
+Epoch: 23|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.77it/s]
+Epoch: 23|50, Train Loss: 0.973923
+Epoch: 23|50, Val Loss: 1.237861
+Epoch: 24|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.75it/s]
+Epoch: 24|50, Train Loss: 0.981938
+Epoch: 24|50, Val Loss: 1.240978
+Epoch: 25|50: 100%|███████████████████████████| 706/706 [02:31<00:00,  4.66it/s]
+Epoch: 25|50, Train Loss: 0.973707
+Epoch: 25|50, Val Loss: 1.243270
+Epoch: 26|50: 100%|███████████████████████████| 706/706 [02:31<00:00,  4.66it/s]
+Epoch: 26|50, Train Loss: 0.965877
+Epoch: 26|50, Val Loss: 1.239286
+Epoch: 27|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.69it/s]
+Epoch: 27|50, Train Loss: 0.979114
+Epoch: 27|50, Val Loss: 1.244262
+Epoch: 28|50: 100%|███████████████████████████| 706/706 [02:31<00:00,  4.65it/s]
+Epoch: 28|50, Train Loss: 0.963793
+Epoch: 28|50, Val Loss: 1.242907
+Epoch: 29|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.70it/s]
+Epoch: 29|50, Train Loss: 0.969383
+Epoch: 29|50, Val Loss: 1.241119
+Epoch: 30|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 30|50, Train Loss: 0.960914
+Epoch: 30|50, Val Loss: 1.243398
+Epoch: 31|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.78it/s]
+Epoch: 31|50, Train Loss: 0.966908
+Epoch: 31|50, Val Loss: 1.241490
+Epoch: 33|50: 100%|███████████████████████████| 706/706 [02:31<00:00,  4.66it/s]
+Epoch: 33|50, Train Loss: 0.962595
+Epoch: 33|50, Val Loss: 1.247859
+Epoch: 34|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.77it/s]
+Epoch: 34|50, Train Loss: 0.956410
+Epoch: 34|50, Val Loss: 1.244484
+Epoch: 35|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 35|50, Train Loss: 0.962458
+Epoch: 35|50, Val Loss: 1.245278
+Epoch: 36|50: 100%|███████████████████████████| 706/706 [02:32<00:00,  4.63it/s]
+Epoch: 36|50, Train Loss: 0.958031
+Epoch: 36|50, Val Loss: 1.245784
+Epoch: 37|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.77it/s]
+Epoch: 37|50, Train Loss: 0.959415
+Epoch: 37|50, Val Loss: 1.246492
+Epoch: 38|50: 100%|███████████████████████████| 706/706 [02:31<00:00,  4.65it/s]
+Epoch: 38|50, Train Loss: 0.954778
+Epoch: 38|50, Val Loss: 1.251746
+Epoch: 39|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 39|50, Train Loss: 0.951975
+Epoch: 39|50, Val Loss: 1.244600
+Epoch: 40|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.69it/s]
+Epoch: 40|50, Train Loss: 0.950869
+Epoch: 40|50, Val Loss: 1.243041
+Epoch: 41|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 41|50, Train Loss: 0.949156
+Epoch: 41|50, Val Loss: 1.248015
+Epoch: 42|50: 100%|███████████████████████████| 706/706 [02:32<00:00,  4.64it/s]
+Epoch: 42|50, Train Loss: 0.951610
+Epoch: 42|50, Val Loss: 1.245151
+Epoch: 43|50: 100%|███████████████████████████| 706/706 [02:33<00:00,  4.60it/s]
+Epoch: 43|50, Train Loss: 0.945946
+Epoch: 43|50, Val Loss: 1.254402
+Epoch: 44|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.71it/s]
+Epoch: 44|50, Train Loss: 0.946608
+Epoch: 44|50, Val Loss: 1.247505
+Epoch: 45|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.68it/s]
+Epoch: 45|50, Train Loss: 0.945287
+Epoch: 45|50, Val Loss: 1.245861
+Epoch: 46|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.77it/s]
+Epoch: 46|50, Train Loss: 0.947436
+Epoch: 46|50, Val Loss: 1.251516
+Epoch: 47|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.72it/s]
+Epoch: 47|50, Train Loss: 0.943925
+Epoch: 47|50, Val Loss: 1.246289
+Epoch: 48|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.69it/s]
+Epoch: 48|50, Train Loss: 0.933122
+Epoch: 48|50, Val Loss: 1.250012
+Epoch: 49|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.74it/s]
+Epoch: 49|50, Train Loss: 0.942863
+Epoch: 49|50, Val Loss: 1.256064
+Epoch: 50|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.68it/s]
+Epoch: 50|50, Train Loss: 0.935045
+Epoch: 50|50, Val Loss: 1.255742
+Loading best checkpoint...
+Final evaluation...
+100%|█████████████████████████████████████████| 407/407 [04:30<00:00,  1.51it/s]
+Hit: 0.4496
+Precision: 0.3598
+Recall: 0.3049
+F1: 0.2961
+Total Training Time: 8153.486252s
+100%|█████████████████████████████████████████| 407/407 [04:33<00:00,  1.49it/s]
+
+
+
+
+
+
+GraphSAGE_4lyr_4batchsz_512hiddim_50eps
+Setting up 'TinyLlama/TinyLlama-1.1B-Chat-v0.1' with configuration: {'revision': 'main', 'max_memory': {0: '68GiB'}, 'low_cpu_mem_usage': True, 'device_map': 'auto', 'torch_dtype': torch.bfloat16}
+Training beginning...
+Epoch: 1|50: 100%|████████████████████████████| 706/706 [02:27<00:00,  4.80it/s]
+Epoch: 1|50, Train Loss: 1.416821
+Epoch: 1|50, Val Loss: 1.325016
+Checkpointing best model...
+Epoch: 2|50: 100%|████████████████████████████| 706/706 [02:28<00:00,  4.74it/s]
+Epoch: 2|50, Train Loss: 1.165108
+Epoch: 2|50, Val Loss: 1.289451
+Checkpointing best model...
+Epoch: 3|50: 100%|████████████████████████████| 706/706 [02:28<00:00,  4.75it/s]
+Epoch: 3|50, Train Loss: 1.132513
+Epoch: 3|50, Val Loss: 1.276287
+Checkpointing best model...
+Epoch: 4|50: 100%|████████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 4|50, Train Loss: 1.099886
+Epoch: 4|50, Val Loss: 1.262141
+Checkpointing best model...
+Epoch: 5|50: 100%|████████████████████████████| 706/706 [02:27<00:00,  4.80it/s]
+Epoch: 5|50, Train Loss: 1.081295
+Epoch: 5|50, Val Loss: 1.255183
+Checkpointing best model...
+Epoch: 6|50: 100%|████████████████████████████| 706/706 [02:27<00:00,  4.78it/s]
+Epoch: 6|50, Train Loss: 1.075674
+Epoch: 6|50, Val Loss: 1.248977
+Checkpointing best model...
+Epoch: 7|50: 100%|████████████████████████████| 706/706 [02:29<00:00,  4.72it/s]
+Epoch: 7|50, Train Loss: 1.059279
+Epoch: 7|50, Val Loss: 1.249273
+Epoch: 8|50: 100%|████████████████████████████| 706/706 [02:29<00:00,  4.71it/s]
+Epoch: 8|50, Train Loss: 1.044693
+Epoch: 8|50, Val Loss: 1.243035
+Checkpointing best model...
+Epoch: 9|50: 100%|████████████████████████████| 706/706 [02:25<00:00,  4.85it/s]
+Epoch: 9|50, Train Loss: 1.043180
+Epoch: 9|50, Val Loss: 1.244925
+Epoch: 10|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.83it/s]
+Epoch: 10|50, Train Loss: 1.031738
+Epoch: 10|50, Val Loss: 1.241352
+Checkpointing best model...
+Epoch: 11|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.81it/s]
+Epoch: 11|50, Train Loss: 1.017123
+Epoch: 11|50, Val Loss: 1.239611
+Checkpointing best model...
+Epoch: 12|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.74it/s]
+Epoch: 12|50, Train Loss: 1.011490
+Epoch: 12|50, Val Loss: 1.244037
+Epoch: 13|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.75it/s]
+Epoch: 13|50, Train Loss: 0.996725
+Epoch: 13|50, Val Loss: 1.241598
+Epoch: 14|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.80it/s]
+Epoch: 14|50, Train Loss: 1.004912
+Epoch: 14|50, Val Loss: 1.236951
+Checkpointing best model...
+Epoch: 15|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 15|50, Train Loss: 1.012835
+Epoch: 15|50, Val Loss: 1.240839
+Epoch: 16|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.83it/s]
+Epoch: 16|50, Train Loss: 0.995887
+Epoch: 16|50, Val Loss: 1.239882
+Epoch: 17|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.72it/s]
+Epoch: 17|50, Train Loss: 0.999698
+Epoch: 17|50, Val Loss: 1.237667
+Epoch: 18|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.81it/s]
+Epoch: 18|50, Train Loss: 1.002734
+Epoch: 18|50, Val Loss: 1.237426
+Epoch: 19|50: 100%|███████████████████████████| 706/706 [02:31<00:00,  4.67it/s]
+Epoch: 19|50, Train Loss: 0.983516
+Epoch: 19|50, Val Loss: 1.242159
+Epoch: 20|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.83it/s]
+Epoch: 20|50, Train Loss: 0.989087
+Epoch: 20|50, Val Loss: 1.238741
+Epoch: 21|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.86it/s]
+Epoch: 21|50, Train Loss: 0.988376
+Epoch: 21|50, Val Loss: 1.244243
+Epoch: 22|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 22|50, Train Loss: 0.987715
+Epoch: 22|50, Val Loss: 1.242508
+Epoch: 23|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.80it/s]
+Epoch: 23|50, Train Loss: 0.983844
+Epoch: 23|50, Val Loss: 1.244360
+Epoch: 24|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.82it/s]
+Epoch: 24|50, Train Loss: 0.974381
+Epoch: 24|50, Val Loss: 1.240978
+Epoch: 25|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.74it/s]
+Epoch: 25|50, Train Loss: 0.977899
+Epoch: 25|50, Val Loss: 1.245660
+Epoch: 26|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.77it/s]
+Epoch: 26|50, Train Loss: 0.976897
+Epoch: 26|50, Val Loss: 1.240202
+Epoch: 27|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.72it/s]
+Epoch: 27|50, Train Loss: 0.976344
+Epoch: 27|50, Val Loss: 1.244593
+Epoch: 28|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.72it/s]
+Epoch: 28|50, Train Loss: 0.972979
+Epoch: 28|50, Val Loss: 1.244237
+Epoch: 29|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.79it/s]
+Epoch: 29|50, Train Loss: 0.965346
+Epoch: 29|50, Val Loss: 1.241947
+Epoch: 30|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.77it/s]
+Epoch: 30|50, Train Loss: 0.966378
+Epoch: 30|50, Val Loss: 1.244272
+Epoch: 31|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.80it/s]
+Epoch: 31|50, Train Loss: 0.972726
+Epoch: 31|50, Val Loss: 1.244542
+Epoch: 32|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 32|50, Train Loss: 0.965912
+Epoch: 32|50, Val Loss: 1.245703
+Epoch: 33|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.86it/s]
+Epoch: 33|50, Train Loss: 0.965603
+Epoch: 33|50, Val Loss: 1.249810
+Epoch: 34|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.75it/s]
+Epoch: 34|50, Train Loss: 0.969939
+Epoch: 34|50, Val Loss: 1.248519
+Epoch: 35|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.75it/s]
+Epoch: 35|50, Train Loss: 0.969498
+Epoch: 35|50, Val Loss: 1.248685
+Epoch: 36|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.78it/s]
+Epoch: 36|50, Train Loss: 0.969344
+Epoch: 36|50, Val Loss: 1.248973
+Epoch: 37|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.80it/s]
+Epoch: 37|50, Train Loss: 0.961732
+Epoch: 37|50, Val Loss: 1.252601
+Epoch: 38|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 38|50, Train Loss: 0.958637
+Epoch: 38|50, Val Loss: 1.253165
+Epoch: 39|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 39|50, Train Loss: 0.957497
+Epoch: 39|50, Val Loss: 1.247784
+Epoch: 40|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.76it/s]
+Epoch: 40|50, Train Loss: 0.960428
+Epoch: 40|50, Val Loss: 1.247726
+Epoch: 41|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.72it/s]
+Epoch: 41|50, Train Loss: 0.955413
+Epoch: 41|50, Val Loss: 1.245791
+Epoch: 42|50: 100%|███████████████████████████| 706/706 [02:25<00:00,  4.84it/s]
+Epoch: 42|50, Train Loss: 0.948668
+Epoch: 42|50, Val Loss: 1.248859
+Epoch: 43|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.70it/s]
+Epoch: 43|50, Train Loss: 0.945582
+Epoch: 43|50, Val Loss: 1.247552
+Epoch: 44|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 44|50, Train Loss: 0.948117
+Epoch: 44|50, Val Loss: 1.246005
+Epoch: 45|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.78it/s]
+Epoch: 45|50, Train Loss: 0.945009
+Epoch: 45|50, Val Loss: 1.256718
+Epoch: 46|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.77it/s]
+Epoch: 46|50, Train Loss: 0.955735
+Epoch: 46|50, Val Loss: 1.255258
+Epoch: 47|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.82it/s]
+Epoch: 47|50, Train Loss: 0.947786
+Epoch: 47|50, Val Loss: 1.254253
+Epoch: 48|50: 100%|███████████████████████████| 706/706 [02:26<00:00,  4.83it/s]
+Epoch: 48|50, Train Loss: 0.953184
+Epoch: 48|50, Val Loss: 1.253757
+Epoch: 49|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.72it/s]
+Epoch: 49|50, Train Loss: 0.945843
+Epoch: 49|50, Val Loss: 1.253810
+Epoch: 50|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.71it/s]
+Epoch: 50|50, Train Loss: 0.947338
+Epoch: 50|50, Val Loss: 1.254484
+Loading best checkpoint...
+Final evaluation...
+100%|█████████████████████████████████████████| 407/407 [04:30<00:00,  1.51it/s]
+Hit: 0.4294
+Precision: 0.3370
+Recall: 0.2945
+F1: 0.2812
+Total Training Time: 8041.666278s
+100%|█████████████████████████████████████████| 407/407 [04:33<00:00,  1.49it/s]
+
+
+
+
+
+
+GIN_4lyr_4batchsz_512hiddim_50eps
+Setting up 'TinyLlama/TinyLlama-1.1B-Chat-v0.1' with configuration: {'revision': 'main', 'max_memory': {0: '68GiB'}, 'low_cpu_mem_usage': True, 'device_map': 'auto', 'torch_dtype': torch.bfloat16}
+Training beginning...
+Epoch: 1|50: 100%|████████████████████████████| 706/706 [02:28<00:00,  4.76it/s]
+Epoch: 1|50, Train Loss: 1.416053
+Epoch: 1|50, Val Loss: 1.324928
+Checkpointing best model...
+Epoch: 2|50: 100%|████████████████████████████| 706/706 [02:28<00:00,  4.77it/s]
+Epoch: 2|50, Train Loss: 1.157590
+Epoch: 2|50, Val Loss: 1.288341
+Checkpointing best model...
+Epoch: 3|50: 100%|████████████████████████████| 706/706 [02:28<00:00,  4.76it/s]
+Epoch: 3|50, Train Loss: 1.115247
+Epoch: 3|50, Val Loss: 1.271987
+Checkpointing best model...
+Epoch: 4|50: 100%|████████████████████████████| 706/706 [02:28<00:00,  4.76it/s]
+Epoch: 4|50, Train Loss: 1.108677
+Epoch: 4|50, Val Loss: 1.262867
+Checkpointing best model...
+Epoch: 5|50: 100%|████████████████████████████| 706/706 [02:28<00:00,  4.76it/s]
+Epoch: 5|50, Train Loss: 1.085120
+Epoch: 5|50, Val Loss: 1.254981
+Checkpointing best model...
+Epoch: 6|50: 100%|████████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 6|50, Train Loss: 1.068686
+Epoch: 6|50, Val Loss: 1.254436
+Checkpointing best model...
+Epoch: 7|50: 100%|████████████████████████████| 706/706 [02:28<00:00,  4.74it/s]
+Epoch: 7|50, Train Loss: 1.059562
+Epoch: 7|50, Val Loss: 1.244814
+Checkpointing best model...
+Epoch: 8|50: 100%|████████████████████████████| 706/706 [02:26<00:00,  4.83it/s]
+Epoch: 8|50, Train Loss: 1.034794
+Epoch: 8|50, Val Loss: 1.244041
+Checkpointing best model...
+Epoch: 9|50: 100%|████████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 9|50, Train Loss: 1.035489
+Epoch: 9|50, Val Loss: 1.240585
+Checkpointing best model...
+Epoch: 10|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.72it/s]
+Epoch: 10|50, Train Loss: 1.031592
+Epoch: 10|50, Val Loss: 1.236106
+Checkpointing best model...
+Epoch: 11|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 11|50, Train Loss: 1.023471
+Epoch: 11|50, Val Loss: 1.235681
+Checkpointing best model...
+Epoch: 12|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.75it/s]
+Epoch: 12|50, Train Loss: 1.007582
+Epoch: 12|50, Val Loss: 1.233612
+Checkpointing best model...
+Epoch: 13|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.75it/s]
+Epoch: 13|50, Train Loss: 1.012411
+Epoch: 13|50, Val Loss: 1.234065
+Epoch: 14|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.70it/s]
+Epoch: 14|50, Train Loss: 1.016178
+Epoch: 14|50, Val Loss: 1.237433
+Epoch: 15|50: 100%|███████████████████████████| 706/706 [02:24<00:00,  4.87it/s]
+Epoch: 15|50, Train Loss: 1.005511
+Epoch: 15|50, Val Loss: 1.237008
+Epoch: 16|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 16|50, Train Loss: 1.001017
+Epoch: 16|50, Val Loss: 1.236605
+Epoch: 17|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 17|50, Train Loss: 0.994847
+Epoch: 17|50, Val Loss: 1.236895
+Epoch: 18|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 18|50, Train Loss: 1.008088
+Epoch: 18|50, Val Loss: 1.234627
+Epoch: 19|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.68it/s]
+Epoch: 19|50, Train Loss: 0.994182
+Epoch: 19|50, Val Loss: 1.236064
+Epoch: 20|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.70it/s]
+Epoch: 20|50, Train Loss: 0.987161
+Epoch: 20|50, Val Loss: 1.239779
+Epoch: 21|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 21|50, Train Loss: 0.990580
+Epoch: 21|50, Val Loss: 1.235221
+Epoch: 22|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.73it/s]
+Epoch: 22|50, Train Loss: 0.989454
+Epoch: 22|50, Val Loss: 1.234201
+Epoch: 23|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.72it/s]
+Epoch: 23|50, Train Loss: 0.981245
+Epoch: 23|50, Val Loss: 1.238592
+Epoch: 24|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.74it/s]
+Epoch: 24|50, Train Loss: 0.975085
+Epoch: 24|50, Val Loss: 1.237084
+Epoch: 25|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.71it/s]
+Epoch: 25|50, Train Loss: 0.973446
+Epoch: 25|50, Val Loss: 1.241270
+Epoch: 26|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.70it/s]
+Epoch: 26|50, Train Loss: 0.973015
+Epoch: 26|50, Val Loss: 1.240717
+Epoch: 27|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.76it/s]
+Epoch: 27|50, Train Loss: 0.970197
+Epoch: 27|50, Val Loss: 1.242835
+Epoch: 28|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.77it/s]
+Epoch: 28|50, Train Loss: 0.973297
+Epoch: 28|50, Val Loss: 1.238189
+Epoch: 29|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.80it/s]
+Epoch: 29|50, Train Loss: 0.964940
+Epoch: 29|50, Val Loss: 1.244306
+Epoch: 30|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.71it/s]
+Epoch: 30|50, Train Loss: 0.968311
+Epoch: 30|50, Val Loss: 1.245426
+Epoch: 31|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.70it/s]
+Epoch: 31|50, Train Loss: 0.957122
+Epoch: 31|50, Val Loss: 1.243657
+Epoch: 32|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.69it/s]
+Epoch: 32|50, Train Loss: 0.964318
+Epoch: 32|50, Val Loss: 1.241959
+Epoch: 33|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.69it/s]
+Epoch: 33|50, Train Loss: 0.961307
+Epoch: 33|50, Val Loss: 1.243268
+Epoch: 34|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.69it/s]
+Epoch: 34|50, Train Loss: 0.962833
+Epoch: 34|50, Val Loss: 1.241124
+Epoch: 35|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.71it/s]
+Epoch: 35|50, Train Loss: 0.960039
+Epoch: 35|50, Val Loss: 1.239680
+Epoch: 36|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.71it/s]
+Epoch: 36|50, Train Loss: 0.954016
+Epoch: 36|50, Val Loss: 1.247905
+Epoch: 37|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.72it/s]
+Epoch: 37|50, Train Loss: 0.951597
+Epoch: 37|50, Val Loss: 1.244013
+Epoch: 38|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.72it/s]
+Epoch: 38|50, Train Loss: 0.947877
+Epoch: 38|50, Val Loss: 1.245711
+Epoch: 39|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.74it/s]
+Epoch: 39|50, Train Loss: 0.951445
+Epoch: 39|50, Val Loss: 1.244452
+Epoch: 40|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.70it/s]
+Epoch: 40|50, Train Loss: 0.954476
+Epoch: 40|50, Val Loss: 1.244514
+Epoch: 41|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.79it/s]
+Epoch: 41|50, Train Loss: 0.946447
+Epoch: 41|50, Val Loss: 1.246082
+Epoch: 42|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.69it/s]
+Epoch: 42|50, Train Loss: 0.955559
+Epoch: 42|50, Val Loss: 1.248241
+Epoch: 43|50: 100%|███████████████████████████| 706/706 [02:30<00:00,  4.70it/s]
+Epoch: 43|50, Train Loss: 0.949079
+Epoch: 43|50, Val Loss: 1.244646
+Epoch: 44|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.74it/s]
+Epoch: 44|50, Train Loss: 0.942931
+Epoch: 44|50, Val Loss: 1.249034
+Epoch: 45|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.78it/s]
+Epoch: 45|50, Train Loss: 0.937798
+Epoch: 45|50, Val Loss: 1.247862
+Epoch: 46|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.77it/s]
+Epoch: 46|50, Train Loss: 0.937241
+Epoch: 46|50, Val Loss: 1.247196
+Epoch: 47|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.79it/s]
+Epoch: 47|50, Train Loss: 0.936465
+Epoch: 47|50, Val Loss: 1.250478
+Epoch: 48|50: 100%|███████████████████████████| 706/706 [02:28<00:00,  4.74it/s]
+Epoch: 48|50, Train Loss: 0.936848
+Epoch: 48|50, Val Loss: 1.250073
+Epoch: 49|50: 100%|███████████████████████████| 706/706 [02:29<00:00,  4.72it/s]
+Epoch: 49|50, Train Loss: 0.938560
+Epoch: 49|50, Val Loss: 1.248493
+Epoch: 50|50: 100%|███████████████████████████| 706/706 [02:27<00:00,  4.78it/s]
+Epoch: 50|50, Train Loss: 0.930312
+Epoch: 50|50, Val Loss: 1.250012
+Loading best checkpoint...
+Final evaluation...
+100%|█████████████████████████████████████████| 407/407 [04:28<00:00,  1.51it/s]
+Hit: 0.4398
+Precision: 0.3611
+Recall: 0.2777
+F1: 0.2827
+Total Training Time: 8131.888759s
+100%|█████████████████████████████████████████| 407/407 [04:32<00:00,  1.49it/s]
