@@ -1,33 +1,11 @@
-# {
-#   "id": "WebQTrn-9",
-#   "question": "how old is sacha baron cohen",
-#   "entities": [99399],
-#   "answers": [{ "kb_id": "1971-10-13", "text": null }],
-#   "subgraph": {
-#     "tuples": [
-#       [1084387, 54, 1128807],
-#       [545190, 4, 2520],
-#       [145210, 133, 1128808]
-#     ],
-#     "entities": [2520, 1070971, 1129126, 543949, 12661]
-#   }
-# }
-
-# - for each sample (could start with just the incorrect samples for which the correct answer is not
-# in any of the results passed by the gnn)
-
-# -- build the subgraph
-# -- identify the query entities
-# -- identify the true answers and the candidate entities
-# -- figure out how far are the shortest paths from the candidate entities to the true answers
-
 import json
 import os
 from typing import Dict, List
 import networkx as nx
 import pandas as pd
 
-directory = "/Users/vctrlin/data/stanford_online/winter_quater/CS224W/final_project/GNN_RAG/cs224w"
+# set working directory
+directory = "working directory"
 
 dataset_file = os.path.join(directory, "test_reformat.json")
 prediction_file = os.path.join(directory, "_test.json")
@@ -43,9 +21,9 @@ def build_graph(tuples: List[List[int]], idx2ent: List[str], ent2text: Dict[str,
     G = nx.Graph()
     for tuple in tuples:
         h, r, t = tuple
-        h = idx2ent[h]  # ent2text.get(idx2ent[h], idx2ent[h])
+        h = idx2ent[h] 
         r = idx2rel[r]
-        t = idx2ent[t]  # ent2text.get(idx2ent[t], idx2ent[t])
+        t = idx2ent[t] 
         G.add_edge(h, t, relation=r.strip())
     return G
 
@@ -76,8 +54,6 @@ tmp_data = {}
 with open(entity_name_file, "r") as f:
     entity_name = json.load(f)
 
-# for cases in which the correct answer(s) is/are not returned by the GNN
-# case a: the shortest path from the incorrect prediction to a true answer
 case_a = pd.DataFrame(columns=["sample id", "candidate", "paths", "shortest_path"])
 counter = 0
 
@@ -105,7 +81,7 @@ for sample_id, sample in preds.items():
             cand = candidate[0]
             paths = {}
             shortest_path = 99
-            # for each true answer, find the
+            
             for ans in true_answers:
                 try:
                     shortest_paths = nx.all_shortest_paths(subgraph, cand, ans)
@@ -141,13 +117,9 @@ for sample_id, sample in preds.items():
                         cases[sample_id] = shortest_path
                         cases_entity[sample_id] = ent2idx[candidate[0]]
 
-#case_a.to_csv(os.path.join(directory, "case_a_path_analysis_L7_1.csv"))
 cases_sorted = sorted(cases.items(), key=lambda x: x[1])
-#case_list = list(cases_sorted.keys())
+
+# output the targeting test cases
 with open("shortest_case.txt", "w") as file:
     for elm in cases_sorted:
         file.write(f"{elm[0]},{cases_entity[elm[0]]}\n")
-
-
-
-# elif sample["precision"] < 1: # for cases in which the GNN returns the correct answer(s) along with incorrect ones
