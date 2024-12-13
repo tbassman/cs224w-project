@@ -9,6 +9,8 @@ For clarity, this code base is separated into three parts, one for each of the t
 
 # Part I
 
+The Jupyter notebook from this part is included in this folder. We recommend running it on a GPU-compatible Jupyter notebook environment with high memory.
+
 # Part II
 
 ## Setup
@@ -227,7 +229,8 @@ python main.py ReaRev --entity_dim 50 --num_epoch 100 --batch_size 8 --eval_ever
 
 ## Re-running the post-processing analysis
 
-## 
+Please refer to the README.md in `part_II/postproc/` for further details. 
+
 # Part III
 ## Procedure
 
