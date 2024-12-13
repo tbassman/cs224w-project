@@ -1,0 +1,8 @@
+Train:
+python3 main.py ReaRev --entity_dim 50 --num_epoch 200 --batch_size 8 --eval_every 2  --lm relbert --num_iter 2 --num_ins 3 --num_gnn 3  --name cwq --experiment_name prn_cwq-rearev-sbert --data_folder data/CWQ/ --num_epoch 100 --warmup_epoch 80
+
+Test:
+python3 main.py ReaRev --entity_dim 50 --num_epoch 100 --batch_size 8 --eval_every 2 --data_folder data/CWQ/ --lm relbert --num_iter 2 --num_ins 3 --num_gnn 3 --relation_word_emb True --load_experiment prn_cwq-rearev-sbert-final.ckpt --is_eval --name cwq
+
+Result:
+2024-11-01 07:00:56,478 - root - INFO - TEST F1: 0.4908, H1: 0.5253, EM 0.6879
