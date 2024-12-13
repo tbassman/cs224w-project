@@ -1,9 +1,13 @@
 from concurrent.futures import ProcessPoolExecutor, as_completed
 import os
-from typing import List
+
+# This script processes the Freebase information extracted in script "01", parses it for the specific relations containing entity IDs that are in the CWQ dataset.
+# It will take a long time to run, even with parallelization!
+# NOTE: The entities.txt file referenced in the script below can be found in part_II/gnn/data/CWQ.
 
 
 def find_ent_name(ent_id: str):
+    """Loops over Freebase files until it finds a line with ent_id. Cleans and saves the text associated with the ent_id."""
     max_num_fb_file = 194
     folder_fb = "./"
 
@@ -24,8 +28,9 @@ def find_ent_name(ent_id: str):
 
 
 def map_function():
+    """Function which enables parallelization of the task carried out in find_ent_name()"""
 
-    fp_entities = "../gnn/data/CWQ/entities2.txt"
+    fp_entities = "./entities.txt"
     fp_out = "./CWQ_entities_with_names_parallel.txt"
 
     # collect list of already-processed entities

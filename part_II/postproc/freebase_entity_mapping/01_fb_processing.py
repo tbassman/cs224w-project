@@ -1,18 +1,9 @@
-# import gzip
-# import shutil
-
-# ## STEP 0:
-# ## https://stackoverflow.com/questions/31028815/how-to-unzip-gz-file-using-python
-
-# with gzip.open("freebase-rdf-2015-08-09-00-01.gz", "rb") as f_in:
-#     with open("freebase-rdf-2015-08-09-00-01.txt", "wb") as f_out:
-#         shutil.copyfileobj(f_in, f_out)
-
 import gzip
 import shutil
 
-## STEP 0:
-## https://stackoverflow.com/questions/31028815/how-to-unzip-gz-file-using-python
+# This script extracts relations of interest for entity ID mapping from the full Freebase dataset in chunks and stores them in a series of smaller text files.
+# The Freebase raw dataset can be downloaded from archives online such as https://www.microsoft.com/en-us/download/details.aspx?id=52312 or https://github.com/microsoft/FastRDFStore.
+# https://stackoverflow.com/questions/31028815/how-to-unzip-gz-file-using-python
 
 num_lines_per_file = 250000
 
