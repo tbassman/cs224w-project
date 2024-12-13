@@ -4,20 +4,24 @@ from typing import Dict, List
 import pandas as pd
 import networkx as nx
 
+# NOTES ON RUNNING
+# 1. 'entities.txt', 'test.json', 'relations.txt' can be obtained from 'part_II/gnn/data/CWQ'
+# 2. 'entities_names.json' can be obtained from the original authors' data download at https://drive.google.com/drive/folders/1ifgVHQDnvFEunP9hmVYT07Y3rvcpIfQp
+# 3. folder_name is of your choice and should be where relevant files are stored
+# 4. F_PREFIX and other file pathways herein should be adjusted for your local file directory
+# 5. The '_test.info' file is produced by any GNN run of the ReaRev model per Part II. You can obtain it from our Google Drive link https://drive.google.com/drive/folders/1ADnEac18M-AdXFZ8btx1h76bT0FWL3ow?usp=sharing by renaming the *.info file in any experiment folder to '_test.info'
+# 6. O
+
 mode = "gnn"
 dataset = "cwq"
 
-F_PREFIX = "/Users/tbassman/Desktop/GitHub/External/"
+F_PREFIX = "./"
 
-# folder_name = "pretrain_num_ins_4"
-# folder_name = "pretrain_num_ins_2"
-folder_name = "checkpoint_num_iter2_num_ins3_num_gnn3"
+folder_name = "experiment_1S"
 
-directory = "/Users/tbassman/Desktop/GitHub/External/GNN-RAG/llm/cs224w"
-
-idx2entity_file = os.path.join(directory, "entities.txt")
-entity2text_file = os.path.join(directory, "CWQ_entity2text_COMBINED.json")
-idx2relation_file = os.path.join(directory, "relations.txt")
+idx2entity_file = os.path.join(folder_name, "entities.txt")
+entity2text_file = os.path.join(folder_name, "entities_names.json")
+idx2relation_file = os.path.join(folder_name, "relations.txt")
 with open(idx2entity_file, "r") as f:
     idx2ent = f.read().split("\n")
 with open(entity2text_file, "r") as f:
@@ -65,7 +69,7 @@ def answer_id2text(id: str, dataset: dict):
 
 if mode == "gnn" and dataset == "cwq":
 
-    ### 1 - Inputs ###
+    ### 1 - Additional Inputs ###
 
     ####### f'{folder_name}' #######
 
@@ -87,12 +91,9 @@ if mode == "gnn" and dataset == "cwq":
         F_PREFIX, "GNN-RAG/gnn/data/CWQ/test_reformat.json"
     )
 
-    entity2text_file = os.path.join(
-        F_PREFIX, "GNN-RAG/fb_processing/CWQ_entity2text.json"
-    )
-
     ################################
 
+    # NOTE change these flags to false if you have already run the script once with them as True
     update_dataset_file = False
     # update_pred_file = True
     update_pred_file = False
@@ -193,13 +194,9 @@ if mode == "gnn" and dataset == "cwq":
 
     for q_id, sample in preds.items():
 
-        # if sample["em"] < 1:
-
         q_textbased_success = 0
 
-        ### 5.1.a - what was the correct answer? what were the incorrect ones?
-
-        ## NOTE new calculation -- what is the min/max/average hop length from query entities to true answer entities?
+        ## what is the min/max/average hop length from query entities to true answer entities?
         dataset_sample = dataset[q_id]
 
         # build the subgraph
@@ -220,8 +217,6 @@ if mode == "gnn" and dataset == "cwq":
         true_a_ent_ids = [ans["kb_id"] for ans in dataset_sample["answers"]]
         true_a_ent_text = [ent2text.get(eid, eid) for eid in true_a_ent_ids]
 
-        # print(f"This sample has {len(dataset_sample['entities'])} q entities.")
-
         # find shortest path from each question entity to each true answer entity
         # we'll compute stats on the list of shortest paths that we find
         for q_ent_idx in dataset_sample["entities"]:
@@ -229,28 +224,15 @@ if mode == "gnn" and dataset == "cwq":
             q_ent_id = idx2ent[q_ent_idx]
             q_ent_text = ent2text.get(q_ent_id, q_ent_id)
 
-            # print(
-            #     f"Question present in subgraph? {subgraph_eid.has_node(q_ent_id)}, {subgraph_text.has_node(q_ent_text)}"
-            # )
-
-            # print(f"This sample has {len(true_a_ent_ids)} true answer entities.")
             for a_ent_id in true_a_ent_ids:
 
                 a_ent_text = ent2text.get(a_ent_id, a_ent_id)
-                # print(
-                # f"    Answer present in subgraph? {subgraph_eid.has_node(a_ent_id)}, {subgraph_text.has_node(a_ent_text)}"
-                # )
-                # if a_ent_id[0] == ":":
-                #     print(
-                #         f"{q_id}, {a_ent_text}, {ent2text.get(a_ent_id[1:],a_ent_id[1:])}"
-                #     )
                 try:
                     shortest_paths = [
                         p
                         for p in nx.all_shortest_paths(subgraph_eid, q_ent_id, a_ent_id)
                     ]
                     shortest_path = len(shortest_paths[0]) - 1
-                    # print(f"        {shortest_path}")
                     q_to_true_a_hops.append(shortest_path)
 
                 except:
@@ -262,10 +244,6 @@ if mode == "gnn" and dataset == "cwq":
                             )
                         ]
                         shortest_path = len(shortest_paths[0]) - 1
-                        # print(f"        {shortest_path}")
-                        # print(
-                        #     f"{q_id}: success through text-based graph for answer entity {a_ent_id}, {a_ent_text}"
-                        # )
                         q_to_true_a_hops.append(shortest_path)
                         q_textbased_success = 1
                     except:
@@ -274,6 +252,7 @@ if mode == "gnn" and dataset == "cwq":
         if len(q_to_true_a_hops) == 0:
             q_to_true_a_hops = [99]
 
+        # collect all sample-level data into a df we'll print to csv
         sample_data = {
             "q_text": str(sample["question"]),
             "q_ent_id": str(

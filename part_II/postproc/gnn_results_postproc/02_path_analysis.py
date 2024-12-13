@@ -1,3 +1,4 @@
+# For reference, each sample in the CWQ dataset starts out looking like this
 # {
 #   "id": "WebQTrn-9",
 #   "question": "how old is sacha baron cohen",
@@ -13,13 +14,14 @@
 #   }
 # }
 
-# - for each sample (could start with just the incorrect samples for which the correct answer is not
-# in any of the results passed by the gnn)
-
+# In this script we want to:
 # -- build the subgraph
 # -- identify the query entities
 # -- identify the true answers and the candidate entities
 # -- figure out how far are the shortest paths from the candidate entities to the true answers
+# -- these results will inform our reflection studies later on in Part III
+
+# NOTE: the relevant files referenced/imported in this script are mentioned/created in 01_analyze_results_by_sample.py
 
 import json
 import os
@@ -27,25 +29,15 @@ from typing import Dict, List
 import networkx as nx
 import pandas as pd
 
-directory = "/Users/tbassman/Desktop/GitHub/External/GNN-RAG/llm/cs224w"
+# NOTE change for your local directory
+directory = "GNN-RAG/llm/cs224w"
 
 dataset_file = os.path.join(directory, "test_reformat.json")
 prediction_file = os.path.join(directory, "_test.json")
 
 idx2entity_file = os.path.join(directory, "entities.txt")
-entity2text_file = os.path.join(directory, "CWQ_entity2text_COMBINED.json")
+entity2text_file = os.path.join(directory, "entities_names.json")
 idx2relation_file = os.path.join(directory, "relations.txt")
-
-
-# def build_graph(tuples: List[List[int]], idx2ent: List[str], ent2text: Dict[str, str]):
-#     G = nx.Graph()
-#     for tuple in tuples:
-#         h, r, t = tuple
-#         h = idx2ent[h]  # ent2text.get(idx2ent[h], idx2ent[h])
-#         r = idx2rel[r]
-#         t = idx2ent[t]  # ent2text.get(idx2ent[t], idx2ent[t])
-#         G.add_edge(h, t, relation=r.strip())
-#     return G
 
 
 def build_graph(tuples: List[List[int]], idx2ent: List[str], ent2text: Dict[str, str]):
@@ -124,5 +116,4 @@ for sample_id, sample in preds.items():
             )
             counter += 1
 
-case_a.to_csv(os.path.join(directory, "case_a_path_analysis.csv"))
-# elif sample["precision"] < 1: # for cases in which the GNN returns the correct answer(s) along with incorrect ones
+case_a.to_csv(os.path.join(directory, "path_analysis.csv"))
